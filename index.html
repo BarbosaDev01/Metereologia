@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metereologia</title>
+    <script type="text/javascript" src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="card">
+        <header>
+            <div>
+                <h1>Metereologia</h1>
+                <h3>Pesquise sua cidade e ache o tempo</h3>
+            </div>
+        </header>
+        <main>
+
+            <div class="cidade">
+                <input type="text" id="cidade" placeholder="Digite a cidade">
+                <button class="button" onclick="PesquisarClima()">Buscar</button>
+                <button class="button" onclick="Limpar()">Limpar</button>
+            </div>
+            <div class="metereologia">
+
+                <input type="text" id="temperatura" readonly placeholder="temperatura">
+                <br>
+                <input type="text" id="main" readonly placeholder="Umidade">
+                <br>
+                <input type="text" id="temp_min" readonly placeholder="mínima">
+                <br>
+                <input type="text" id="temp_max" readonly placeholder="max">
+            </div>
+
+        </main>
+    </div>
+</body>
+
+</html>

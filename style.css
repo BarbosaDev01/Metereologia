@@ -1,0 +1,48 @@
+.card {
+    width: 190px;
+    height: 300px;
+    border-radius: 30px;
+    background: #fdfdfd;
+    box-shadow: 15px 15px 30px #bebebe,
+        -15px -15px 30px #ffffff;
+    margin: auto;
+    padding: 45px;
+}
+
+.metereologia {
+    margin: 10px;
+}
+
+body {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+input {
+    border-radius: 9px;
+    margin: 3px;
+    border-width: thin;
+}
+
+.cidade {
+    margin: 0.2px;
+}
+
+h1 {
+    font-family: "Bebas Neue", sans-serif;
+    color: #3298db;
+    margin-bottom: 0%;
+}
+
+h3 {
+    margin-top: 0%;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+}
+button{
+    width: 80px;
+    border-radius: 9px;
+    border-width: thin;
+}
+  
